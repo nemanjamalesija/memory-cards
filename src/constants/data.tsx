@@ -9,7 +9,9 @@ import ScarryTerry from './images/scary-terry.webp';
 import SuperHero from './images/SuperHero.webp';
 import YouDKme from './images/YouDKme.webp';
 
-export default [
+import { cards } from '../types/types';
+
+export const initialState: cards = [
   {
     id: 1,
     name: 'Jaguar',

@@ -1,6 +1,5 @@
 import AppTitle from './components/AppTitle';
 import HighScore from './components/HighScore';
-import data from './constants/data';
 
 function App() {
   return (
