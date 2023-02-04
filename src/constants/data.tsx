@@ -1,21 +1,20 @@
-import Assasin from './images/assasin.jpg';
-import BirdPerson from './images/birdPerson.jpg';
+import { cards } from '../types/types';
+import assasin from './images/assasin.jpg';
+import birdPerson from './images/birdPerson.jpg';
 import Bully from './images/Bully.webp';
 import IceT from './images/IceT.jpg';
 import MrNimbus from './images/MrNimbus.webp';
 import PButhole from './images/PButhole.jpg';
 import Psychologist from './images/Psychologist.jpg';
-import ScarryTerry from './images/scary-terry.webp';
+import Terry from './images/Terry.webp';
 import SuperHero from './images/SuperHero.webp';
 import YouDKme from './images/YouDKme.webp';
-
-import { cards } from '../types/types';
 
 export const initialState: cards = [
   {
     id: 1,
     name: 'Jaguar',
-    image: Assasin,
+    image: assasin,
     checked: false,
   },
   {
@@ -27,7 +26,7 @@ export const initialState: cards = [
   {
     id: 3,
     name: 'Bird Person',
-    image: BirdPerson,
+    image: birdPerson,
     checked: false,
   },
   {
@@ -57,7 +56,7 @@ export const initialState: cards = [
   {
     id: 8,
     name: 'Scarry Terry',
-    image: ScarryTerry,
+    image: Terry,
     checked: false,
   },
   {
