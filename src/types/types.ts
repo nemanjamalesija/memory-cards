@@ -5,4 +5,6 @@ export type cards = {
   checked: boolean;
 }[];
 
-export type singleCard = cards[number];
+export type singleCard = cards[number] & {
+  changeStatusHandler(id: number): void;
+};

@@ -19,6 +19,10 @@ h1 {
   color: #444;
   height: 9rem;
   padding: 2rem;
+  background-color: #212529;
+  color: #eeeeee;
+  line-height: 1.5;
+  margin-bottom: 2.6rem;
 }
 
 main {
@@ -37,6 +41,7 @@ main {
   padding: 2rem;
   font-size: 2rem;
   gap: 3.2rem;
+  margin-bottom: 1.6rem;
 }
 
 .score {
