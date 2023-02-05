@@ -1,10 +1,14 @@
-export type cards = {
-  id: number;
-  name: string;
-  image: string;
-  checked: boolean;
-}[];
+import React from 'react';
 
-export type singleCard = cards[number] & {
+export type stateType = {
+  cards: { id: number; name: string; image: string; checked: boolean }[];
+  modalOpen: boolean;
+  currentScore: number;
+  highScore: number;
+};
+
+export type stateTypeWithMethos = stateType & {
   changeStatusHandler(id: number): void;
 };
+
+export type singleCard = stateType['cards'][number];
