@@ -1,5 +1,3 @@
-import React from 'react';
-
 export type stateType = {
   cards: { id: number; name: string; image: string; checked: boolean }[];
   modalOpen: boolean;

@@ -1,9 +1,8 @@
-import React from 'react';
 import { useGlobalContext } from '../context';
 import { singleCard } from '../types/types';
 
 const SingleCard = (props: singleCard) => {
-  const { id, name, image, checked } = props;
+  const { id, name, image } = props;
   const { changeStatusHandler } = useGlobalContext();
   return (
     <article onClick={() => changeStatusHandler(id)}>

@@ -36,26 +36,26 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     });
   };
 
-  const winnerChecker = () => {
-    const isWinner = state.cards.every((card) => card.checked === true);
-    if (isWinner)
-      setState((prev) => {
-        return { ...prev, modalOpen: false };
-      });
-
-    setState((prev) => {
-      let newHighScore = state.highScore;
-
-      if (state.currentScore > state.highScore)
-        newHighScore = state.currentScore;
-
-      return { ...prev, highScore: newHighScore };
-    });
-  };
-
   useEffect(() => {
+    const winnerChecker = () => {
+      const isWinner = state.cards.every((card) => card.checked === true);
+      if (isWinner)
+        setState((prev) => {
+          return { ...prev, modalOpen: false };
+        });
+
+      setState((prev) => {
+        let newHighScore = state.highScore;
+
+        if (state.currentScore > state.highScore)
+          newHighScore = state.currentScore;
+
+        return { ...prev, highScore: newHighScore };
+      });
+    };
+
     winnerChecker();
-  }, [state.cards]);
+  }, [state.cards, state.currentScore, state.highScore]);
 
   const resetGameHandler = () => {
     setState((prev) => {

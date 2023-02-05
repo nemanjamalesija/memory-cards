@@ -1,8 +1,6 @@
-import { useState } from 'react';
-
 import AppTitle from './components/AppTitle';
 import Cards from './components/Cards';
-import HighScore from './components/HighScore';
+import TrackScore from './components/TrackScore';
 import Modal from './components/Modal';
 import Overlay from './components/Overlay';
 import { useGlobalContext } from './context';
@@ -13,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <AppTitle />
-      <HighScore />
+      <TrackScore />
       <Cards />
       {modalOpen && <Modal />}
       {modalOpen && <Overlay />}
