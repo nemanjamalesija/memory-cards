@@ -1,26 +1,28 @@
 import { cards } from '../types/types';
-import assasin from './images/assasin.jpg';
-import birdPerson from './images/birdPerson.jpg';
-import Bully from './images/Bully.webp';
-import IceT from './images/IceT.jpg';
-import MrNimbus from './images/MrNimbus.webp';
-import PButhole from './images/PButhole.jpg';
-import Psychologist from './images/Psychologist.jpg';
-import Terry from './images/Terry.webp';
-import SuperHero from './images/SuperHero.webp';
-import YouDKme from './images/YouDKme.webp';
+import birdPerson from './images/birdPerson.png';
+import PButhole from './images/butthole.png';
+import Terry from './images/Terry.png';
+import gearHead from './images/gearHead.png';
+import measix from './images/measix.png';
+import michael from './images/michael.png';
+import mrBean from './images/mrBean.png';
+import princeNebulon from './images/princeNebulon.png';
+import snuffles from './images/snuffles.png';
+import squanchy from './images/squanchy.png';
+import timetravel from './images/timetravel.png';
+import Morty from './images/Morty.png';
 
 export const initialState: cards = [
   {
     id: 1,
-    name: 'Jaguar',
-    image: assasin,
+    name: 'Gear Head',
+    image: gearHead,
     checked: false,
   },
   {
     id: 2,
-    name: 'Frank Palicky',
-    image: Bully,
+    name: 'Meeseeks',
+    image: measix,
     checked: false,
   },
   {
@@ -31,14 +33,14 @@ export const initialState: cards = [
   },
   {
     id: 4,
-    name: 'Ice T',
-    image: IceT,
+    name: 'Krombopulos Michael',
+    image: michael,
     checked: false,
   },
   {
     id: 5,
-    name: 'Mr. Nimbus',
-    image: MrNimbus,
+    name: 'Mr. Bean',
+    image: mrBean,
     checked: false,
   },
   {
@@ -49,8 +51,8 @@ export const initialState: cards = [
   },
   {
     id: 7,
-    name: 'Dr. Wong',
-    image: Psychologist,
+    name: 'Prince Nebulon',
+    image: princeNebulon,
     checked: false,
   },
   {
@@ -61,14 +63,26 @@ export const initialState: cards = [
   },
   {
     id: 9,
-    name: 'Planetina',
-    image: SuperHero,
+    name: 'Snuffles',
+    image: snuffles,
     checked: false,
   },
   {
     id: 10,
-    name: 'Mrs.Panckakes',
-    image: YouDKme,
+    name: 'Squanchy',
+    image: squanchy,
+    checked: false,
+  },
+  {
+    id: 11,
+    name: 'Slow Mobius',
+    image: timetravel,
+    checked: false,
+  },
+  {
+    id: 12,
+    name: 'Morty',
+    image: Morty,
     checked: false,
   },
 ];
