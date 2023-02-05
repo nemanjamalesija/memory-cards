@@ -123,10 +123,14 @@ img {
   font-weight: 600;
   padding: 0.6rem 1.2rem;
   margin: 3.2rem 1.2rem 0;
+  letter-spacing: 0.75px;
+  font-weight: 600;
 }
 
 .your-score {
   font-size: 1.8rem;
+  letter-spacing: 0.75px;
+  color: #444;
 }
 
 .overlay {

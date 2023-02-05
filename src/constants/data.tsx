@@ -1,9 +1,8 @@
 import { stateTypeWithMethos } from '../types/types';
-import jessica from './images/jessica.png';
+
 import PButhole from './images/butthole.png';
 import Terry from './images/Terry.png';
 import gearHead from './images/gearHead.png';
-import measix from './images/measix.png';
 import michael from './images/michael.png';
 import abraham from './images/abraham.png';
 import princeNebulon from './images/princeNebulon.png';
@@ -11,6 +10,8 @@ import J19ick from './images/J19ick.png';
 import president from './images/president.png';
 import vampire from './images/vampire.png';
 import rickkk from './images/rickkk.png';
+import snuffles from './images/snuffles.png';
+import squanchy from './images/squanchy.png';
 
 export const initialState: stateTypeWithMethos = {
   cards: [
@@ -22,14 +23,14 @@ export const initialState: stateTypeWithMethos = {
     },
     {
       id: 2,
-      name: "I'm Meeseex!",
-      image: measix,
+      name: 'Squanchy',
+      image: squanchy,
       checked: false,
     },
     {
       id: 3,
-      name: 'Jessica',
-      image: jessica,
+      name: 'Snuffles',
+      image: snuffles,
       checked: false,
     },
     {

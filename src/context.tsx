@@ -17,6 +17,11 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
             return { ...prev, currentScore: state.currentScore + 1 };
           });
         }
+        if (card.checked === true) {
+          setState((prev) => {
+            return { ...prev, modalOpen: true };
+          });
+        }
         return { ...card, checked: true };
       } else return card;
     });

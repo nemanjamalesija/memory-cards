@@ -1,10 +1,12 @@
 import React from 'react';
+import { useGlobalContext } from '../context';
 
 const Modal = () => {
+  const { currentScore } = useGlobalContext();
   return (
     <div className="modal">
-      <p className="you-win-p">Game over!</p>
-      <p className="your-score">Your score: </p>
+      <h3 className="you-win-p">Game over!</h3>
+      <p className="your-score">Your score: {currentScore} </p>
     </div>
   );
 };
