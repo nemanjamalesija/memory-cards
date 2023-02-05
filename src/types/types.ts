@@ -9,6 +9,7 @@ export type stateType = {
 
 export type stateTypeWithMethos = stateType & {
   changeStatusHandler(id: number): void;
+  updateSccore(id: number): void;
 };
 
 export type singleCard = stateType['cards'][number];

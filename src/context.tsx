@@ -12,6 +12,11 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const changeStatusHandler = (id: number) => {
     const newCards = state.cards.map((card) => {
       if (card.id === id) {
+        if (card.checked === false) {
+          setState((prev) => {
+            return { ...prev, currentScore: state.currentScore + 1 };
+          });
+        }
         return { ...card, checked: true };
       } else return card;
     });

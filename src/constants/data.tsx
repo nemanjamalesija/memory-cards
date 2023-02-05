@@ -91,4 +91,5 @@ export const initialState: stateTypeWithMethos = {
   currentScore: 0,
   highScore: 0,
   changeStatusHandler: (id: number) => void {},
+  updateSccore: (id: number) => void {},
 };
