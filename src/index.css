@@ -131,6 +131,16 @@ img {
   font-size: 1.8rem;
   letter-spacing: 0.75px;
   color: #444;
+  margin-bottom: 1.6rem;
+}
+
+.btn {
+  padding: 0.9rem 1.8rem;
+  background-color: #212529;
+  color: #eeeeee;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
 }
 
 .overlay {

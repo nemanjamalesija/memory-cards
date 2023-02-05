@@ -42,6 +42,15 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
       setState((prev) => {
         return { ...prev, modalOpen: false };
       });
+
+    setState((prev) => {
+      let newHighScore = state.highScore;
+
+      if (state.currentScore > state.highScore)
+        newHighScore = state.currentScore;
+
+      return { ...prev, highScore: newHighScore };
+    });
   };
 
   useEffect(() => {
