@@ -5,7 +5,7 @@ const SingleCard = (props: singleCard) => {
   const { id, name, image, checked } = props;
   return (
     <article>
-      <header>
+      <header className='image-container'>
         <img src={image} alt="name" />
       </header>
       <h3 className="heading-single-card">{name}</h3>

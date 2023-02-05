@@ -1,16 +1,16 @@
 import { cards } from '../types/types';
-import birdPerson from './images/birdPerson.png';
+import jessica from './images/jessica.png';
 import PButhole from './images/butthole.png';
 import Terry from './images/Terry.png';
 import gearHead from './images/gearHead.png';
 import measix from './images/measix.png';
 import michael from './images/michael.png';
-import mrBean from './images/mrBean.png';
+import abraham from './images/abraham.png';
 import princeNebulon from './images/princeNebulon.png';
-import snuffles from './images/snuffles.png';
-import squanchy from './images/squanchy.png';
-import timetravel from './images/timetravel.png';
-import Morty from './images/Morty.png';
+import J19ick from './images/J19ick.png';
+import president from './images/president.png';
+import vampire from './images/vampire.png';
+import rickkk from './images/rickkk.png';
 
 export const initialState: cards = [
   {
@@ -21,14 +21,14 @@ export const initialState: cards = [
   },
   {
     id: 2,
-    name: 'Meeseeks',
+    name: "I'm Meeseex!",
     image: measix,
     checked: false,
   },
   {
     id: 3,
-    name: 'Bird Person',
-    image: birdPerson,
+    name: 'Jessica',
+    image: jessica,
     checked: false,
   },
   {
@@ -39,13 +39,13 @@ export const initialState: cards = [
   },
   {
     id: 5,
-    name: 'Mr. Bean',
-    image: mrBean,
+    name: 'Coach Feratu',
+    image: vampire,
     checked: false,
   },
   {
     id: 6,
-    name: 'Puppy Butthole',
+    name: 'Mr. Poopybutthole',
     image: PButhole,
     checked: false,
   },
@@ -63,26 +63,26 @@ export const initialState: cards = [
   },
   {
     id: 9,
-    name: 'Snuffles',
-    image: snuffles,
+    name: 'Rick Sanchez J19',
+    image: J19ick,
     checked: false,
   },
   {
     id: 10,
-    name: 'Squanchy',
-    image: squanchy,
+    name: 'President Curtis',
+    image: president,
     checked: false,
   },
   {
     id: 11,
-    name: 'Slow Mobius',
-    image: timetravel,
+    name: 'Abrodolph Lincoler',
+    image: abraham,
     checked: false,
   },
   {
     id: 12,
-    name: 'Morty',
-    image: Morty,
+    name: 'Rick Sanchez',
+    image: rickkk,
     checked: false,
   },
 ];
