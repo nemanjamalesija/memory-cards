@@ -57,11 +57,23 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     winnerChecker();
   }, [state.cards]);
 
+  const resetGameHandler = () => {
+    setState((prev) => {
+      return {
+        ...prev,
+        currentScore: 0,
+        modalOpen: false,
+        cards: initialState.cards,
+      };
+    });
+  };
+
   return (
     <AppContext.Provider
       value={{
         ...state,
         changeStatusHandler,
+        resetGameHandler,
       }}
     >
       {children}
