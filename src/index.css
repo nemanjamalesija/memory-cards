@@ -13,7 +13,7 @@ html {
   font-size: 62.5%;
 }
 
-h1 {
+.heading-primary {
   font-size: 3.6rem;
   text-align: center;
   color: #444;
@@ -25,12 +25,13 @@ h1 {
   margin-bottom: 2.6rem;
 }
 
-main {
+.cards-main {
   margin: 0 auto;
   width: 90rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2.4rem;
+  margin-bottom: 5.2rem;
 }
 
 /* high score section*/
@@ -65,7 +66,7 @@ main {
 
 /* single card */
 
-article {
+.single-card {
   width: 20rem;
   border-radius: 2rem;
   background-color: #eeeeee;
@@ -78,7 +79,7 @@ article {
   justify-content: space-between;
 }
 
-article:hover {
+.single-card:hover {
   transform: scale(1.1);
 }
 .image-container {
@@ -99,7 +100,7 @@ article:hover {
   font-weight: 700;
 }
 
-img {
+.single-card-image {
   width: 100%;
   max-height: 18rem;
 }
@@ -157,4 +158,15 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.footer {
+  background-color: #212529;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.footer-paragraph {
+  font-size: 1.4rem;
+  padding: 0.6rem;
 }

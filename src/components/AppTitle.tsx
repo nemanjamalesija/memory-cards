@@ -1,7 +1,7 @@
 const AppTitle = () => {
   return (
     <section className="">
-      <h1>Rick and Morty memory game</h1>
+      <h1 className="heading-primary">Rick and Morty memory game</h1>
     </section>
   );
 };
