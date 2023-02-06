@@ -18,7 +18,7 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
             return { ...prev, currentScore: state.currentScore + 1 };
           });
         }
-        // if clicked seond time, end game
+        // if clicked second time, end game
         if (card.checked === true) {
           setState((prev) => {
             return { ...prev, modalOpen: true };
