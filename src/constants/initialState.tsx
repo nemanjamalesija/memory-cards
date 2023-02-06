@@ -1,6 +1,5 @@
 import { stateTypeWithMethos } from '../types/types';
 
-import PButhole from './images/butthole.png';
 import Terry from './images/Terry.png';
 import gearHead from './images/gearHead.png';
 import michael from './images/michael.png';
