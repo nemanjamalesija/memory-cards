@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 
-import { initialState } from './constants/data';
+import { initialState } from './constants/initialState';
 import './index.css';
 
 //////////////context
