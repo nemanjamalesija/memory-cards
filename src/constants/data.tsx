@@ -12,6 +12,7 @@ import vampire from './images/vampire.png';
 import rickkk from './images/rickkk.png';
 import snuffles from './images/snuffles.png';
 import squanchy from './images/squanchy.png';
+import birdPerson from './images/birdPerson.png';
 
 export const initialState: stateTypeWithMethos = {
   cards: [
@@ -47,8 +48,8 @@ export const initialState: stateTypeWithMethos = {
     },
     {
       id: 6,
-      name: 'Mr. Poopybutthole',
-      image: PButhole,
+      name: 'Bird Person',
+      image: birdPerson,
       checked: false,
     },
     {
@@ -65,7 +66,7 @@ export const initialState: stateTypeWithMethos = {
     },
     {
       id: 9,
-      name: 'Rick Sanchez J19',
+      name: 'Doofus Rick',
       image: J19ick,
       checked: false,
     },
